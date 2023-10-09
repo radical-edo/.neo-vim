@@ -16,6 +16,6 @@ vim.opt.termguicolors = true;
 vim.opt.scrolloff = 8; -- keep at least 8 lines when scrolling
 
 vim.opt.updatetime = 50;
-vim.opt.colorcolumn = '140';
+vim.opt.colorcolumn = '100';
 
 vim.g.mapleader = ' ';

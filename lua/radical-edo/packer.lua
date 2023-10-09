@@ -11,11 +11,9 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-	use({ 'rose-pine/neovim', as = 'rose-pine' });
-	use('tanvirtin/monokai.nvim');
 	use({ "ellisonleao/gruvbox.nvim" });
-	use({ "catppuccin/nvim", as = "catppuccin" });
 	use({ 'nvim-treesitter/nvim-treesitter',  run = ':TSUpdate' });
+	use({ 'rose-pine/neovim', as = 'rose-pine' });
 	use('mbbill/undotree');
 	use({
 		'VonHeikemen/lsp-zero.nvim',
@@ -41,4 +39,5 @@ return require('packer').startup(function(use)
     use('prettier/vim-prettier');
     use('tpope/vim-surround');
     use({ 'codota/tabnine-nvim', run = "./dl_binaries.sh" });
+    use('rust-lang/rust.vim');
 end)
