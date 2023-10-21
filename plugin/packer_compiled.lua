@@ -79,20 +79,25 @@ _G.packer_plugins = {
     path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["go.nvim"] = {
+    loaded = true,
+    path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["guihua.lua"] = {
+    loaded = true,
+    path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   harpoon = {
     loaded = true,
@@ -113,11 +118,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["monokai.nvim"] = {
-    loaded = true,
-    path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/monokai.nvim",
-    url = "https://github.com/tanvirtin/monokai.nvim"
   },
   nerdtree = {
     loaded = true,
@@ -153,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
+  },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/Users/mateusz.ba/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
   },
   ["tabnine-nvim"] = {
     loaded = true,
