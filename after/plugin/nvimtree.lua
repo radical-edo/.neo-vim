@@ -14,6 +14,7 @@ local function my_on_attach(bufnr)
   vim.keymap.set('n', 'L', api.node.navigate.sibling.prev, opts('Go to Previous Sibling'));
   vim.keymap.set('n', '.', api.tree.toggle_hidden_filter, opts('Hide .dotfiles'));
   vim.keymap.set('n', 's', '<Nop>', opts('Do Nothing'));
+  vim.keymap.set('n', 'P', api.fs.paste, opts('Paste File'));
 end;
 
 require('nvim-tree').setup({
