@@ -48,6 +48,7 @@ require('pckr').add({
             {'L3MON4D3/LuaSnip'},
         }
     },
+    { 'iamcco/markdown-preview.nvim', run = function () vim.fn['mkdp#util#install']() end, },
     'ray-x/go.nvim',
     'ray-x/guihua.lua', -- recommended if need floating window support
     'mbbill/undotree',

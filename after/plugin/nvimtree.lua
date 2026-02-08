@@ -9,12 +9,11 @@ local function my_on_attach(bufnr)
   end;
 
   api.config.mappings.default_on_attach(bufnr);
-  vim.keymap.set('n', 'p', api.node.navigate.parent, opts('Go to Parent Directory'));
   vim.keymap.set('n', 'H', api.node.navigate.sibling.next, opts('Go to Next Sibling'));
   vim.keymap.set('n', 'L', api.node.navigate.sibling.prev, opts('Go to Previous Sibling'));
   vim.keymap.set('n', '.', api.tree.toggle_hidden_filter, opts('Hide .dotfiles'));
   vim.keymap.set('n', 's', '<Nop>', opts('Do Nothing'));
-  vim.keymap.set('n', 'P', api.fs.paste, opts('Paste File'));
+  vim.keymap.set('n', 'P', api.node.navigate.parent, opts('Go to Parent Directory'));
 end;
 
 require('nvim-tree').setup({
