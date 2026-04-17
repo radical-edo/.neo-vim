@@ -7,7 +7,7 @@ require('rose-pine').setup({
 
 require('monokai-pro').setup({
     filter = 'octagon', -- classic | octagon | pro | machine | ristretto | spectrum
-    transparent_background = false,
+    transparent_background = true,
 });
 
 function ColorScheme(color)
